@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MiCalculadora</string>
+    <string name="text_tvTitulo">MiCalculadora - DSM441</string>
+    <string name="text_numero1">Número 1</string>
+    <string name="hint_numero1">Ej. 10</string>
+    <string name="text_numero2">Número 2 (para suma, resta, multiplicación y división)</string>
+    <string name="hint_numero2">Ej. 5</string>
+    <string name="text_suma">Sumar (+)</string>
+    <string name="text_resta">Restar (-)</string>
+    <string name="text_multiplicacion">Multiplicar (x)</string>
+    <string name="text_division">Dividir (÷)</string>
+    <string name="text_operaciones_unarias">Estas operaciones solo usan el Número 1:</string>
+    <string name="text_porcentaje">%</string>
+    <string name="text_cuadrado">x²</string>
+    <string name="text_raiz">√x</string>
+    <string name="text_resultado_label">Resultado</string>
+    <string name="text_historial_label">Historial (últimas 5 operaciones)</string>
+    <string name="text_limpiar_todo">Limpiar todo</string>
+</resources>

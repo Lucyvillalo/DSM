@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string name="text_tvTitulo">Hola Mundo - DSM441</string>
+    <string name="text_tvPreguntaNombre">¿Cual es tu nombre?</string>
+    <string name="hint_etNombre">Jhon</string>
+    <string name="text_tvPreguntaApellido">¿Cual es tu apellido?</string>
+    <string name="hint_etApellido">Doe</string>
+    <string name="text_btnSaludar">Saludar</string>
+    <string name="text_btnLimpiar">Limpiar</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Guia4Discusion</string>
+
+    <string name="permiso_audio_requerido">Permiso para acceder al micrófono es requerido por esta App para grabar audio.</string>
+    <string name="permiso_audio_concedido_usuario">Permiso para grabar concedido por el usuario</string>
+    <string name="permiso_audio_denegado_usuario">Permiso para grabar denegado por el usuario</string>
+
+    <string name="estado_esperando">Esperando permiso</string>
+    <string name="estado_grabando">Grabando</string>
+    <string name="estado_denegado">Permiso denegado</string>
+</resources>

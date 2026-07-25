@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Guia4</string>
+    <string name="permiso_audio_denegado">Permiso para grabar denegado</string>
+    <string name="permiso_audio_concedido">Permiso para grabar concedido</string>
+    <string name="permiso_audio_denegado_usuario">Permiso para grabar denegado por el usuario</string>
+    <string name="permiso_audio_concedido_usuario">Permiso para grabar concedido por el usuario</string>
+    <string name="permiso_audio_requerido">Permiso para acceder al micrófono es requerido por esta App para grabar audio.</string>
+    <string name="permiso_camara_denegado">Permiso para camara denegado</string>
+    <string name="permiso_camara_concedido">Permiso para camara concedido</string>
+    <string name="permiso_camara_requerido">Permiso para acceder a la camara es requerido por esta App para tomar fotos.</string>
+    <string name="estado_esperando">Esperando permiso</string>
+    <string name="estado_grabando">Grabando</string>
+    <string name="estado_denegado">Permiso denegado</string>
+
+</resources>

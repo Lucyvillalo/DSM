@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mi Perfil</string>
+
+    <!-- Pantalla de Bienvenida -->
+    <string name="bienvenida_encabezado">Mi Perfil</string>
+    <string name="bienvenida_titulo">Bienvenido a\nMi Perfil</string>
+    <string name="btn_iniciar">INICIAR</string>
+    <string name="btn_saber_mas">SABER MÁS</string>
+
+    <!-- Pantalla de Registro de Perfil -->
+    <string name="registro_encabezado">Mi Perfil</string>
+    <string name="registro_titulo">Registro de Perfil</string>
+    <string name="registro_subtitulo">Completa tus datos para continuar</string>
+    <string name="label_nombres">Nombres y apellidos</string>
+    <string name="hint_nombres">Ingresa tu nombre completo</string>
+    <string name="label_correo">Correo electrónico</string>
+    <string name="hint_correo">ejemplo@correo.com</string>
+    <string name="label_telefono">Número de teléfono</string>
+    <string name="hint_telefono">+503 7000 0000</string>
+    <string name="label_fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="hint_fecha_nacimiento">dd/mm/aaaa</string>
+    <string name="label_direccion">Dirección de residencia</string>
+    <string name="hint_direccion">Calle, Carretera, Ciudad</string>
+    <string name="btn_tomar_foto">TOMAR FOTO</string>
+    <string name="btn_guardar">GUARDAR CAMBIOS</string>
+    <string name="permiso_estado_no_solicitado">Permiso: No solicitado</string>
+
+    <!-- Mensajes de permiso de cámara -->
+    <string name="permiso_camara_concedido">Permiso: Concedido</string>
+    <string name="permiso_camara_denegado">Permiso: Denegado, no se puede acceder a la cámara</string>
+    <string name="rationale_titulo">Permiso de cámara necesario</string>
+    <string name="rationale_mensaje">Mi Perfil necesita acceder a la cámara para que puedas tomar tu foto de perfil.</string>
+    <string name="rationale_aceptar">Entendido</string>
+    <string name="rationale_cancelar">Cancelar</string>
+
+    <!-- Mensajes de validación del formulario -->
+    <string name="error_campos_vacios">Por favor completa todos los campos</string>
+    <string name="error_correo_invalido">El correo electrónico no tiene un formato válido</string>
+    <string name="error_telefono_invalido">El número de teléfono debe tener 8 dígitos (ej. 7000 0000), con o sin +503</string>
+    <string name="error_fecha_invalida">La fecha de nacimiento debe ser una fecha real con formato dd/mm/aaaa</string>
+
+    <!-- Pantalla de Perfil Guardado -->
+    <string name="perfil_encabezado">Mi Perfil</string>
+    <string name="perfil_guardado_exito">¡Perfil Guardado!</string>
+    <string name="perfil_guardado_mensaje">Tu información académica ha sido actualizada exitosamente.</string>
+    <string name="informacion_general">INFORMACIÓN GENERAL</string>
+    <string name="label_nombre_completo">NOMBRE COMPLETO</string>
+    <string name="label_correo_institucional">CORREO INSTITUCIONAL</string>
+    <string name="label_telefono_contacto">TELÉFONO DE CONTACTO</string>
+    <string name="label_fecha_nacimiento_resumen">FECHA DE NACIMIENTO</string>
+    <string name="label_direccion_resumen">DIRECCIÓN</string>
+    <string name="btn_regresar_inicio">REGRESAR AL INICIO</string>
+    <string name="btn_nuevo_perfil">CREAR NUEVO PERFIL</string>
+
+    <!-- Navegación inferior -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_registro">Registro</string>
+    <string name="nav_perfil">Perfil</string>
+    <string name="nav_perfil_sin_datos">Aún no has guardado un perfil</string>
+</resources>

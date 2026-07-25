@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gris_fondo">
+
+    <!-- Barra superior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/blanco"
+        android:padding="16dp"
+        android:elevation="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenida_encabezado"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/negro_texto" />
+    </LinearLayout>
+
+    <!-- Contenido central -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/bg_circle_avatar"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenida_titulo"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/azul_primario"
+            android:layout_marginBottom="40dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/btn_iniciar"
+            app:backgroundTint="@color/azul_primario"
+            app:cornerRadius="8dp"
+            android:layout_marginBottom="12dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSaberMas"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/btn_saber_mas"
+            app:strokeColor="@color/gris_borde"
+            android:textColor="@color/negro_texto"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

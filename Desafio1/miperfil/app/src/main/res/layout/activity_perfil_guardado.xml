@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gris_fondo">
+
+    <!-- Barra superior con flecha de regreso -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/blanco"
+        android:padding="16dp"
+        android:elevation="2dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:text="@string/perfil_encabezado"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/negro_texto" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="20dp">
+
+            <!-- Icono de éxito -->
+            <View
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="@drawable/bg_circle_check"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/perfil_guardado_exito"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/negro_texto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/perfil_guardado_mensaje"
+                android:textAlignment="center"
+                android:textColor="@color/gris_texto"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Tarjeta con la información -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card"
+                android:padding="16dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/informacion_general"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/azul_primario"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Nombre completo -->
+                <TextView
+                    style="@style/EtiquetaResumen"
+                    android:text="@string/label_nombre_completo" />
+                <TextView
+                    android:id="@+id/tvNombre"
+                    style="@style/ValorResumen" />
+
+                <!-- Correo -->
+                <TextView
+                    style="@style/EtiquetaResumen"
+                    android:text="@string/label_correo_institucional" />
+                <TextView
+                    android:id="@+id/tvCorreo"
+                    style="@style/ValorResumen" />
+
+                <!-- Teléfono -->
+                <TextView
+                    style="@style/EtiquetaResumen"
+                    android:text="@string/label_telefono_contacto" />
+                <TextView
+                    android:id="@+id/tvTelefono"
+                    style="@style/ValorResumen" />
+
+                <!-- Fecha de nacimiento -->
+                <TextView
+                    style="@style/EtiquetaResumen"
+                    android:text="@string/label_fecha_nacimiento_resumen" />
+                <TextView
+                    android:id="@+id/tvFechaNacimiento"
+                    style="@style/ValorResumen" />
+
+                <!-- Dirección -->
+                <TextView
+                    style="@style/EtiquetaResumen"
+                    android:text="@string/label_direccion_resumen" />
+                <TextView
+                    android:id="@+id/tvDireccion"
+                    style="@style/ValorResumen"
+                    android:layout_marginBottom="0dp" />
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRegresarInicio"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="@string/btn_regresar_inicio"
+                app:backgroundTint="@color/azul_primario"
+                app:cornerRadius="8dp"
+                android:layout_marginBottom="12dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNuevoPerfil"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="@string/btn_nuevo_perfil"
+                app:strokeColor="@color/gris_borde"
+                android:textColor="@color/negro_texto"
+                app:cornerRadius="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Navegación inferior -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blanco"
+        app:itemIconTint="@color/azul_primario"
+        app:itemTextColor="@color/azul_primario"
+        app:menu="@menu/bottom_nav_menu" />
+
+</LinearLayout>

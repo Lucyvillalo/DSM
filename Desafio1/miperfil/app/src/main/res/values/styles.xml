@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Etiqueta pequeña arriba de cada campo del formulario de Registro -->
+    <style name="EtiquetaCampo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/negro_texto</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <!-- Etiqueta pequeña en mayúsculas dentro de la tarjeta de resumen -->
+    <style name="EtiquetaResumen">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/gris_texto</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <!-- Valor mostrado debajo de cada EtiquetaResumen -->
+    <style name="ValorResumen">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/negro_texto</item>
+    </style>
+
+</resources>

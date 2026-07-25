@@ -1,0 +1,25 @@
+Agrega estas dependencias en app/build.gradle (o build.gradle.kts) si tu proyecto
+no las tiene ya, porque los layouts usan TextInputLayout, MaterialButton y
+BottomNavigationView:
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.activity:activity-ktx:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+}
+
+Si usas build.gradle.kts (Kotlin DSL), la sintaxis es:
+
+dependencies {
+    implementation("androidx.core:core-ktx:1.13.1")
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation("androidx.activity:activity-ktx:1.9.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+}
+
+Nota: "com.google.android.material:material" es la que habilita
+TextInputLayout, MaterialButton y BottomNavigationView usados en los layouts
+de este proyecto.

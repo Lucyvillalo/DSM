@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="Elige el layout"
+        android:textColor="@color/color_primary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="onClickLinear"
+        android:text="Registro con LinearLayout"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/color_button"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="onClickFrame"
+        android:text="Registro con FrameLayout"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/color_button"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="onClickTable"
+        android:text="Registro con TableLayout"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/color_button"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="onClickConstraint"
+        android:text="Registro con ConstraintLayout"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/color_button"
+        android:textColor="@color/white" />
+
+</LinearLayout>

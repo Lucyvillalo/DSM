@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores personalizados -->
+    <color name="header_bg">#263238</color>
+    <color name="color_primary">#37474F</color>
+    <color name="color_accent">#FF7043</color>
+    <color name="color_button">#00897B</color>
+</resources>

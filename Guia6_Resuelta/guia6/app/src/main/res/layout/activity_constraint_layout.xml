@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConstraintLayout">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/TopGuideLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/BottomGuideLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/StartGuideLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/EndGuideLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <View
+        android:id="@+id/ImgAvatar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="Imagen de avatar"
+        android:background="#FF8A65"
+        app:layout_constraintVertical_bias="0.25"
+        app:layout_constraintEnd_toEndOf="@+id/EndGuideLine"
+        app:layout_constraintStart_toStartOf="@+id/StartGuideLine"
+        app:layout_constraintTop_toTopOf="@+id/TopGuideLine"
+        app:layout_constraintBottom_toBottomOf="@+id/BottomGuideLine" />
+
+    <EditText
+        android:id="@+id/TxtEmail"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:autofillHints="E-mail"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/EndGuideLine"
+        app:layout_constraintStart_toStartOf="@+id/StartGuideLine"
+        app:layout_constraintTop_toBottomOf="@+id/ImgAvatar"
+        app:layout_constraintBottom_toTopOf="@+id/TxtPassword" />
+
+    <EditText
+        android:id="@+id/TxtPassword"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:autofillHints="Password"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/EndGuideLine"
+        app:layout_constraintStart_toStartOf="@+id/StartGuideLine"
+        app:layout_constraintTop_toBottomOf="@+id/TxtEmail" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Iniciar sesion"
+        app:layout_constraintBottom_toTopOf="@+id/BottomGuideLine"
+        app:layout_constraintEnd_toEndOf="@+id/EndGuideLine"
+        app:layout_constraintStart_toStartOf="@+id/StartGuideLine"
+        app:layout_constraintTop_toBottomOf="@+id/TxtPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

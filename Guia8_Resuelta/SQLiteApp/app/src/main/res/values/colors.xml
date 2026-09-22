@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#6750A4</color>
+    <color name="purple_700">#6750A4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="guide_background">#FEF7FF</color>
+    <color name="guide_text">#1D1B20</color>
+    <color name="guide_secondary_text">#49454F</color>
+</resources>

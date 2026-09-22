@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.SQLiteApp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/guide_background</item>
+        <item name="colorOnSurface">@color/guide_text</item>
+        <item name="colorOnSurfaceVariant">@color/guide_secondary_text</item>
+        <item name="android:colorBackground">@color/guide_background</item>
+        <item name="android:windowBackground">@color/guide_background</item>
+        <item name="android:statusBarColor">@color/purple_500</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/guide_background</item>
+    </style>
+    <style name="Theme.SQLiteApp" parent="Base.Theme.SQLiteApp" />
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!-- Solo usamos Picasso con ImageView. Su ruta de notificaciones no se invoca. -->
+    <issue id="NotificationPermission">
+        <ignore regexp=".*com\.squareup\.picasso\.RemoteViewsAction\.NotificationAction.*" />
+    </issue>
+</lint>

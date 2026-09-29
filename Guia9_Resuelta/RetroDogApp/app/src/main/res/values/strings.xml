@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RetroDogApp</string>
+    <string name="search_hint">Busca una raza, por ejemplo: husky</string>
+    <string name="search_instructions">Escribe una raza en inglés para ver sus fotos. Prueba con husky, beagle o hound.</string>
+    <string name="no_results">No se encontraron fotos. Revisa el nombre de la raza en inglés.</string>
+    <string name="server_error">No se pudo obtener la respuesta. Intenta buscar de nuevo.</string>
+    <string name="connection_error">No se pudieron cargar las fotos. Revisa tu conexión e intenta de nuevo.</string>
+    <string name="dog_image">Fotografía de un perro de la raza buscada</string>
+</resources>

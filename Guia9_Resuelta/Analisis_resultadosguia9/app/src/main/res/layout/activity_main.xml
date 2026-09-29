@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main" android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Repositorios de GitHub" android:textSize="26sp" android:textStyle="bold" android:padding="16dp" />
+    <androidx.appcompat.widget.SearchView android:id="@+id/searchUsers"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        app:iconifiedByDefault="false" app:queryHint="Usuario, por ejemplo: octocat" />
+    <ProgressBar android:id="@+id/progress" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:visibility="gone" />
+    <TextView android:id="@+id/status" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:padding="16dp" android:accessibilityLiveRegion="polite"
+        android:text="Escribe un usuario y pulsa buscar en el teclado." />
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/repositories"
+        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" />
+    <Button android:id="@+id/loadMore" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Cargar más" android:visibility="gone" />
+</LinearLayout>

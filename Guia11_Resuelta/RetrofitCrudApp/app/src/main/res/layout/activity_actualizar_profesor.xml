@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+    
+    <EditText android:id="@+id/nombreEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:hint="Nombre del profesor" android:inputType="textPersonName" />
+    <EditText android:id="@+id/apellidoEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:hint="Apellido del profesor" android:inputType="textPersonName" />
+    <EditText android:id="@+id/edadEditText" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:hint="Edad del profesor" android:inputType="number" />
+    <Button android:id="@+id/actualizarButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Actualizar" />
+</LinearLayout>

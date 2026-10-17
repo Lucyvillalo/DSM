@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.TodoCompose" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
